@@ -17,6 +17,14 @@ body{
 #section-logo{
   margin-left: 50px;
 }
+.footer-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-logo img{
+  height: 50px;
+}
 
 .logo-top{
   width: 300px;
@@ -100,7 +108,6 @@ section{
 }
 .background-section-one{
   height: 20vh;
-  /* background-image: url(../assets/wallpaper.png); */
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,7 +115,6 @@ section{
   width: 100%;
 }
 .background-section-two{
-  /* background-image: url(../assets/bg2.jpeg); */
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,14 +128,12 @@ section{
 }
 
 .background-section-three{
-  /* background-image: url(../assets/bg2.jpeg); */
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .background-section-four{
-  /* background-image: url(../assets/bg2.jpeg); */
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
@@ -140,7 +144,9 @@ section{
   margin-bottom: 0px;
   font-family: Helvetica, sans-serif;
   text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
 }
 .form-container{
   background-color: rgba(70, 70, 70, 0.5);
@@ -148,6 +154,8 @@ section{
   padding: 25px;
   width: 300px;
   margin-top: 50px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
 #email{
@@ -211,8 +219,8 @@ form{
 
 footer{
   /* margin-top: 50px; */
-  height: 150px;
-  padding: 25px;
+  height: 30px;
+  padding-top: 25px;
   text-align: center;
   background-color: #000;
   color: #fff;

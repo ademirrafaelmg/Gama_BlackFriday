@@ -40,6 +40,15 @@ form.addEventListener('submit', (e) => {
   
 
 
+ 
+  let content = document.getElementById('content')
+
+  let carregando = `<p>Carregando...</p></br><img src="assets/loader.gif" alt="Hiring Coders Logo">`
+
+  let pronto = `<p>Cadastro realizado!</p>`
+
+  content.innerHTML = carregando
+
   let data = {
     nome,
     email,
@@ -48,13 +57,6 @@ form.addEventListener('submit', (e) => {
 
   localStorage.setItem('lead', convertData)
 
-  let content = document.getElementById('content')
-
-  let carregando = `<p>carregando...</p>`
-
-  let pronto = `<p>pronto</p>`
-
-  content.innerHTML = carregando
 
 
   setTimeout(() => {
