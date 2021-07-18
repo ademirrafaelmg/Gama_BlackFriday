@@ -90,9 +90,10 @@ section{
   width: 100%;
   background-color: rgba(70, 70, 70, 0.8);
   padding: 30px;
+  min-width: 500px;
 }
 .card-container img{
-  width: 70%;
+  width: 360px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -259,6 +260,7 @@ footer{
   position: relative;
   margin: auto;
   font-family: Helvetica, Tahoma, sans-serif;
+  min-width: 500px;
 }
 
 .mySlides {
@@ -295,7 +297,7 @@ footer{
   font-weight: bold;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 30px;
   width: 100%;
   text-align: center;
 }
