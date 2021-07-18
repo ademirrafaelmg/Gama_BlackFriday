@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+	<link href='https://fonts.googleapis.com/css?family=Tourney' rel='stylesheet'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Hanalei' rel='stylesheet'> -->
+	<title>Black Friday da NerdStore</title>
+</head>
+<body>
+  <section class="section-container background-section-one">
+    <section id="section-logo">
+		<img src="assets/logo800.png" alt="Logotipo" class="logo-top">
+	</section>
+    <section id="top-menu" class="menu">
+	  <a href="#"><div class="menu-item verde" id="menu-item-1"><p>Início</p></div></a>
+      <a href="#"><div class="menu-item azul" id="menu-item-2"><p>Produtos</p></div></a>
+      <a href="#"><div class="menu-item branco" id="menu-item-3"><p>Sobre a Loja</p></div></a>
+      <a href="#"><div class="menu-item vermelho" id="menu-item-4"><p>Contato</p></div></a>
+    </section>
+  </section>
+  <section class="section-container background-section-two">
+		<div class="bf-container">
+			<img src="assets/bf1000.jpg" alt="Black Friday">
+		</div>
+		<div class="timer-container">
+			FALTAM
+			<p id="timer"></p>
+		</div>
+		<div class="blackfriday">
+			<p>Vem aí a <span  class="verde">Black Friday da Nerd Store</span>: 
+				uma sexta-feira cheia de <span  class="azul">promoções imperdíveis</span>. Os 
+				produtos mais cobiçados com os <span  class="vermelho">melhores descontos</span> e 
+				<span  class="amarelo">muitas surpresas</span> ao longo do dia. <span  class="laranja">Cadastre seu email</span> para receber as <span  class="verde">melhores promoções</span> 
+				e ainda <span  class="azul">cupons especiais</span> para conseguir 
+				<span  class="vermelho">preços jamais vistos</span> naqueles produtos pelos quais você tanto esperava.</p>
+		</div>
+		<div class="form-container">
+      <div id="content">
+		<div id="mensagem"></div>
+        <form id="form">
+          <input type="text" placeholder="Seu nome" id="nome" oninput="hideIcon(this);" onblur="showIcon(this);">
+          <input type="text" placeholder="Seu email" id="email" oninput="hideIcon(this);" onblur="showIcon(this);">
+          <input type="submit" id ="cadastrar" value="Cadastrar">
+        </form>
+      </div>
+    </div>
+	</section>
+	<section class="section-container background-intersection"></section>
+  <section class="section-container background-section-three">
+    
+
+  </section>
+  <section class="section-container background-section-four">
+    <footer>
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </section>
+  
+  
+</body>
+<script src="js/script.js"></script>
+</html>
