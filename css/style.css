@@ -12,6 +12,7 @@ html {
 }
 body{
   background-image: url(../assets/wallpaper.png);
+  background-size: 100% 100%;
 }
 #section-logo{
   margin-left: 50px;
@@ -87,6 +88,11 @@ section{
 .bf-container img{
   width: 500px;
 }
+.blackfriday{
+  font-size: 32px;
+  text-align: center;
+}
+
 .background-intersection{
   height: 20px;
   box-shadow: -10px -55px 15px #000;
@@ -99,6 +105,7 @@ section{
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: space-between;
+  width: 100%;
 }
 .background-section-two{
   /* background-image: url(../assets/bg2.jpeg); */
@@ -108,21 +115,22 @@ section{
   background-color: #000;
   color: #fff;
   font-family: 'Tourney', Helvetica, sans-serif;
-  font-size: 32px;
   width: 100%;
   flex-direction: column;
-  padding: 30px;  
+  /* padding: 30px;   */
   box-shadow: -10px -35px 25px #000;
 }
 
 .background-section-three{
   /* background-image: url(../assets/bg2.jpeg); */
+  width: 100%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .background-section-four{
   /* background-image: url(../assets/bg2.jpeg); */
+  width: 100%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -130,7 +138,9 @@ section{
   color: #fff;
   box-shadow: -10px -40px 15px #000;
   margin-bottom: 0px;
-  
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+
 }
 .form-container{
   background-color: rgba(70, 70, 70, 0.5);
